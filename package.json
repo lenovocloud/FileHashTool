@@ -1,0 +1,17 @@
+{
+  "name": "hashtool",
+  "version": "1.0.0",
+  "description": "file hash tool",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "debug":"electron --inspect",
+    "dev": "electron . --debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Murphy",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.6"
+  }
+}
